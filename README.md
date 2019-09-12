@@ -15,13 +15,12 @@ Inside demo :
 
 My project accept json request in this format :
      {
-      "quiz": 
-      {
-          "sports": 
-          {
-              "q": [
-
-                     {
+        "quiz": 
+        {
+            "sports": 
+            {
+                "q": [
+                  {
                       "question": "Which one is correct team name in NBA?",       
                       "options": [
                           "New York Bulls",
