@@ -63,10 +63,12 @@ After this response will be :
 
 If I want to see record we have to do get-request ("localhost:8080/quiz") and my response will be :
 
-{ 
-    "total_record": 3,
+ 
+
+
+    {
+    "total_record": 3,   
     "quiz": {
-      
        "sports": {
             "record": 1
             "q": [            
