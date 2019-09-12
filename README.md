@@ -14,11 +14,14 @@ Inside demo :
                    }
 
 My project accept json request in this format :
+     
+     
      {
         "quiz": 
         {
-            "sports": 
+           "sports": 
             {
+            
                 "q": [
                   {
                       "question": "Which one is correct team name in NBA?",       
@@ -51,6 +54,7 @@ My project accept json request in this format :
   
 
 After this response will be :
+
     {
       "math_record_inserted": "2",
       "sport_record_inserted": "1"
