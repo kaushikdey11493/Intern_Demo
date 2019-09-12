@@ -60,6 +60,7 @@ After this response will be :
       "sport_record_inserted": "1"
     }
 
+![](pic1.png)
 
 If I want to see record we have to do get-request ("localhost:8080/quiz") and my response will be :
 
