@@ -1,6 +1,6 @@
 # Project File Descriptions :
 
-I have used Spring Web for this project.
+I have used Spring Web , embedded tomcat and embedded H2 database for this project.
 
 demo_h2.zip : This is the zip file of the project. You can extract this zip file and import in eclipse or STS(spring tool suite).
 
