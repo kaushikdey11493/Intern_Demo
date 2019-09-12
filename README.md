@@ -13,7 +13,7 @@ Inside demo :
                          }
                    }
 
-My project accept json request in this format :
+My project accept json post-request ("localhost:8080/quiz") in this format :
      
      
      {
@@ -59,3 +59,53 @@ After this response will be :
       "math_record_inserted": "2",
       "sport_record_inserted": "1"
     }
+
+
+If I want to see record we have to do get-request ("localhost:8080/quiz") and my response will be :
+
+{ 
+    "total_record": 3,
+    "quiz": {
+      
+       "sports": {
+            "record": 1
+            "q": [            
+                {
+                    "question": "Which one is correct team name in NBA?",
+                    "options": [
+                        "New York Bulls",
+                        "Los Angeles Kings",
+                        "Golden State Warriros",
+                        "Huston Rocket"
+                    ],
+                    "answer": "Huston Rocket"
+                }
+            ]
+        },
+        "maths": {
+            "record": 2,
+            "q": [
+                {
+                    "question": "5 + 7 = ?",
+                    "options": [
+                        "10",
+                        "11",
+                        "12",
+                        "13"
+                    ],
+                    "answer": "12"
+                },
+                {
+                    "question": "12 - 8 = ?",
+                    "options": [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "answer": "4"
+                }
+            ]
+        }
+    }
+}
