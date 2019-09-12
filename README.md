@@ -1,4 +1,8 @@
-# Intern_Demo
+# Project File Descriptions :
+
+I have used Spring Web for this project.
+
+demo_h2.zip : This is the zip file of the project. You can extract this zip file and import in eclipse or STS(spring tool suite).
 
 Inside demo :
   1. Controller : This package deals with controllers for rest services.
@@ -12,6 +16,8 @@ Inside demo :
                                 Sport object;
                          }
                    }
+                   
+Sir after going through the readme if you want I can make project live.
 
 My project accept json post-request ("localhost:8080/quiz") in this format :
      
